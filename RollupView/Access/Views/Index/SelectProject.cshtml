@@ -1,0 +1,558 @@
+﻿@using AreaUploader.Models
+@model AreaUpload.ProjectCount
+
+@{
+    ViewBag.Title = "CopyArea";
+}
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/AppScripts/CopyPath.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style type="text/css">
+    .rcorners2 {
+        border-radius: 5px;
+        border: 1px solid #d9edf7;
+        margin-left: 293px;
+        padding-right: 0px;
+        padding-left: 0px;
+        width: 525px;
+    }
+
+    .divhead {
+        background-color: #d9edf7;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        margin-top: 0px;
+        padding-left: 15px;
+        height: 37px;
+    }
+
+    .font {
+        font-weight: 100
+    }
+
+    .navbar-inverse {
+        border-color: #2E7CF4;
+    }
+</style>
+<style type="text/css">
+    #snackbar {
+        visibility: hidden;
+        min-width: 250px;
+        margin-left: -125px;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        border-radius: 2px;
+        padding: 16px;
+        position: fixed;
+        z-index: 1;
+        left: 50%;
+        bottom: 30px;
+        font-size: 17px;
+    }
+
+        #snackbar.show {
+            visibility: visible;
+            -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+            animation: fadein 0.5s, fadeout 0.5s 2.5s;
+        }
+</style>
+
+
+<div id="proDiv">
+    @using (Html.BeginForm("Import", "Home", FormMethod.Post, new { enctype = "multipart/form-data", @id = "Import", @style = "margin-top: 20px;" }))
+    {
+        @Html.HiddenFor(model => model.AccName)
+        @Html.HiddenFor(model => model.PAT)
+        @Html.HiddenFor(model => model.RefreshToken)
+        @Html.HiddenFor(model => model.Message);
+        @Html.HiddenFor(model => model.Name);
+
+        <div class="col-sm-4">
+            <label>Projects</label>
+            @Html.DropDownListFor(model => model.SelectedID, new SelectList(@Model.ProjectList.Items, "Text", "Text"), "--select project--", new { @class = "form-control rmv", @id = "ProjectList" })
+        </div>
+            <div class="col-sm-4">
+                <label>Choose a csv File (.csv)</label>
+                @Html.TextBoxFor(x => x.filechoosen, new { @id = "filechoosen", @type = "file", @class = "form-control rmv", @accept = ".csv" })
+                @*<input type="file" accept=".xlsx,.xls,image/*,.doc, .docx,.ppt, .pptx,.txt,.pdf" />*@
+            </div>
+            <div class="col-sm-4">
+                <button type="button" class="btn btn-primary" style="margin-top:25px" id="btnImport">Import</button>
+            </div>
+            <div class="col-sm-8" style="padding: 20px;">
+                <h5>
+                    <label style="color:red;">**</label>&nbsp;The accepted file format is .csv.<a href="~/Files/AreaUpload.csv" download>Click here</a> to download a sample of file.<br />
+                    &nbsp;&nbsp;&nbsp; This version of Area Uploader works for 3 levels and 50 rows of data.<br />
+                </h5>
+                <div><label style="color:red;">**</label>&nbsp; To upload more than 50 rows and more than 3 levels of Areas, contact us <a>vststoolssupport@ecanarys.com</a></div>
+            </div>
+    }
+</div>
+<div class="fade modal-fade-in-scale-up" id="loader" aria-hidden="true" aria-labelledby="exampleModalTitle" role="dialog" tabindex="-1" style="display: none;">
+    <img src="~/Images/InternetSlowdown_Day.gif" style="margin-left:420px; width:200px" />
+    <h4><label style="color:red">***</label>Please do not refresh the page</h4>
+</div>
+@*background-color:#FF91B0;*@
+
+<div class="col-sm-offset-3 col-sm-6 hidden" id="diverror" style="border:groove 2px #d9edf7;border-radius: 5px; margin-top: 10px; margin-bottom:20px; ">
+    <div>
+        @if (!string.IsNullOrEmpty(Model.ErrList))
+            {
+            @Html.HiddenFor(model => model.AccName, new { @id = "accname" })
+            @Html.HiddenFor(model => model.PAT, new { @id = "pat" })
+
+            string[] values = new string[] { };
+
+            if (!string.IsNullOrEmpty(Model.ErrList))
+            {
+
+                values = Model.ErrList.Split('*');
+                foreach (var msg in values)
+                {
+                    <img src="~/Images/warning-sign.png" style="width:15px; height:15px;" />
+                    <label id="errmsg" style="color:black;font-weight:100;display:inline">@msg</label><br />
+                }
+                <script>
+                    $(document).ready(function () {
+                        $('#diverror').removeClass('hidden');
+                        $('#closebtn').click(function () {
+                            $('#diverror').empty();
+                            $('#diverror').addClass('hidden');
+                            $('#erlist').empty();
+                        });
+                        var query = window.location.search.substring(1)
+                        if (query.length) {
+                            if (window.history != undefined && window.history.pushState != undefined) {
+                                window.history.pushState({}, document.title, window.location.pathname + "?accessToken=" + $('#pat').val() + "&accountName=" + $('#accname').val());
+                            }
+                        }
+                    });
+                </script>
+            }
+        }
+    </div>
+    <div>
+        @if (!string.IsNullOrEmpty(Model.SuccessMsg))
+            {
+            @Html.HiddenFor(model => model.AccName, new { @id = "accnamem" })
+            @Html.HiddenFor(model => model.PAT, new { @id = "patm" })
+            <br />
+            <br />
+            <script>
+                $(document).ready(function () {
+                    $('#diverror').removeClass('hidden');
+                    $('#closebtn').click(function () {
+                        $('#diverror').empty();
+                        $('#diverror').addClass('hidden');
+                    });
+                    //                    window.history.pushState({}, document.title, window.location.pathname + "?accname=" + $('#accnamem').val() + "&pat=" + $('#patm').val());
+
+                    var query = window.location.search.substring(1)
+                    if (query.length) {
+                        if (window.history != undefined && window.history.pushState != undefined) {
+                            window.history.pushState({}, document.title, window.location.pathname + "?accessToken=" + $('#patm').val() + "&accountName=" + $('#accnamem').val());
+
+                        }
+                    }
+                });
+            </script>
+            <img src="~/Images/succimgs.jpg" style="width:10px; height:10px;" />
+
+            <label id="succ" style="color:green;font-weight:100;">@Model.SuccessMsg</label><br />
+            <label>Here is the URL for the areas:</label><br />
+            <a id="url" style="color:blue;font-weight:100;" href="@Model.accURL">@Model.accURL</a>
+        }
+    </div>
+    <div style="margin-top:15px; margin-bottom:15px;">
+        <button class="btn btn-primary btn-sm pull-right" id="closebtn">Close</button><br />
+    </div>
+</div>
+<br />
+<br />
+
+<div class="container">
+    <div class="rcorners2 col-sm-offset-3 col-sm-6" style="padding-bottom:8px;">
+        <div class="divhead">
+            <b style="font-size:16px;color:#3a87ad">Contact Us </b>
+        </div>
+        <div style="margin-left: 12px; font-weight:100">
+            <label class="font">
+                To upload more than 50 rows and more than 3 levels of Areas, Contact Us.
+            </label>
+        </div>
+        <div class="col-sm-4 pull-right">
+            <button class="btn btn-primary btn-sm" id="adminmail">I'm Interested</button>
+        </div>
+        <div id="mailloader" style="margin-top: 0px;margin-left: 54px; visibility:hidden;">
+            <b>Sending mail to admin, please wait..</b>
+            <img src="~/Images/loader.gif" style="width:30px;" />
+        </div>
+        <div id="snackbar">Mail has been sent.</div>
+    </div>
+
+    <div class="col-sm-3" style="">
+        <div class="divhead">
+            <b style="font-size:16px;color:#3a87ad; border-radius:5px;">Our other tools </b>
+        </div>
+        <div style=" font-weight:100;border: 1px solid #d9edf7;border-radius: 5px;">
+            <div>
+                <label class="font">
+                    <a href="https://marketplace.visualstudio.com/items?itemName=canarysautomationspvtltd.VSTS-TeamProject-Monitor"><b style="margin-left: 14px;">VSTS TeamProject Monitor</b></a>
+                </label>
+            </div>
+
+            <div>
+                <label class="font">
+                    <a href="https://marketplace.visualstudio.com/items?itemName=canarysautomationspvtltd.dashboardmigratortool"><b style="margin-left: 14px;">VSTS Copy Dashboard</b></a>
+                </label>
+            </div>
+
+
+            <div>
+                <label class="font">
+                    <a href="https://marketplace.visualstudio.com/items?itemName=canarysautomationspvtltd.canarysautomationspvtltd"><b style="margin-left: 14px;">VSTS on Mobile</b></a>
+                </label>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br />
+<div class="container">
+    <div class="rcorners2 col-sm-offset-3 col-sm-6 col-sm-offset-3">
+        <div class="divhead">
+            <b style="font-size:16px;color:#3a87ad">How to Import Area </b>
+        </div>
+        <div style="margin-left: 12px; font-weight:100">
+            <label class="font">
+                1.	Sign into the tool using your VSTS credentials
+            </label>
+            <label class="font">
+                2.	Select the VSTS Account and Team Project for which you want to imports Area (Paths)
+            </label>
+
+            <label class="font">
+                3.	Select the .CSV which consists the Area (Paths) with levels
+            </label>
+            <label class="font">
+                4.	Click on Import Button
+            </label>
+
+        </div>
+    </div>
+</div>
+<br />
+<div class="container">
+
+    <div class="rcorners2  col-sm-6 col-sm-offset-3">
+        <div class="divhead">
+            <b style="font-size:16px;color:#3a87ad">Supported scenarios </b>
+        </div>
+        <div style="margin-left: 12px; font-weight:100">
+            <label class="font">
+                1.	Upload Area Paths from .CSV file
+            </label>
+            <label class="font">
+                2.	Upload Multi-level Area Path (Up to 14 is supported by VSTS)
+            </label>
+
+            <label class="font">
+                3.	Import Bulk Area (Paths)- Currently Tested for 15,000 Area Paths including child Area Paths.
+            </label>
+
+        </div>
+    </div>
+</div>
+
+<br />
+<br />
+<br />
+
+
+
+
+@using AreaUploader.Models
+@model AreaUpload.ProjectCount
+
+@{
+    ViewBag.Title = "CopyArea";
+}
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/AppScripts/CopyPath.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style type="text/css">
+    .rcorners2 {
+        border-radius: 5px;
+        border: 1px solid #d9edf7;
+        margin-left: 293px;
+        padding-right: 0px;
+        padding-left: 0px;
+        width: 525px;
+    }
+
+    .divhead {
+        background-color: #d9edf7;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        margin-top: 0px;
+        padding-left: 15px;
+        height: 37px;
+    }
+
+    .font {
+        font-weight: 100
+    }
+
+    .navbar-inverse {
+        border-color: #2E7CF4;
+    }
+</style>
+<style type="text/css">
+    #snackbar {
+        visibility: hidden;
+        min-width: 250px;
+        margin-left: -125px;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        border-radius: 2px;
+        padding: 16px;
+        position: fixed;
+        z-index: 1;
+        left: 50%;
+        bottom: 30px;
+        font-size: 17px;
+    }
+
+        #snackbar.show {
+            visibility: visible;
+            -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+            animation: fadein 0.5s, fadeout 0.5s 2.5s;
+        }
+</style>
+
+
+<div id="proDiv">
+    @using (Html.BeginForm("Import", "Home", FormMethod.Post, new { enctype = "multipart/form-data", @id = "Import", @style = "margin-top: 20px;" }))
+    {
+        @Html.HiddenFor(model => model.AccName)
+        @Html.HiddenFor(model => model.PAT)
+        @Html.HiddenFor(model => model.RefreshToken)
+        @Html.HiddenFor(model => model.Message);
+        @Html.HiddenFor(model => model.Name);
+
+        <div class="col-sm-4">
+            <label>Projects</label>
+            @Html.DropDownListFor(model => model.SelectedID, new SelectList(@Model.ProjectList.Items, "Text", "Text"), "--select project--", new { @class = "form-control rmv", @id = "ProjectList" })
+        </div>
+            <div class="col-sm-4">
+                <label>Choose a csv File (.csv)</label>
+                @Html.TextBoxFor(x => x.filechoosen, new { @id = "filechoosen", @type = "file", @class = "form-control rmv", @accept = ".csv" })
+                @*<input type="file" accept=".xlsx,.xls,image/*,.doc, .docx,.ppt, .pptx,.txt,.pdf" />*@
+            </div>
+            <div class="col-sm-4">
+                <button type="button" class="btn btn-primary" style="margin-top:25px" id="btnImport">Import</button>
+            </div>
+            <div class="col-sm-8" style="padding: 20px;">
+                <h5>
+                    <label style="color:red;">**</label>&nbsp;The accepted file format is .csv.<a href="~/Files/AreaUpload.csv" download>Click here</a> to download a sample of file.<br />
+                    &nbsp;&nbsp;&nbsp; This version of Area Uploader works for 3 levels and 50 rows of data.<br />
+                </h5>
+                <div><label style="color:red;">**</label>&nbsp; To upload more than 50 rows and more than 3 levels of Areas, contact us <a>vststoolssupport@ecanarys.com</a></div>
+            </div>
+    }
+</div>
+<div class="fade modal-fade-in-scale-up" id="loader" aria-hidden="true" aria-labelledby="exampleModalTitle" role="dialog" tabindex="-1" style="display: none;">
+    <img src="~/Images/InternetSlowdown_Day.gif" style="margin-left:420px; width:200px" />
+    <h4><label style="color:red">***</label>Please do not refresh the page</h4>
+</div>
+@*background-color:#FF91B0;*@
+
+<div class="col-sm-offset-3 col-sm-6 hidden" id="diverror" style="border:groove 2px #d9edf7;border-radius: 5px; margin-top: 10px; margin-bottom:20px; ">
+    <div>
+        @if (!string.IsNullOrEmpty(Model.ErrList))
+            {
+            @Html.HiddenFor(model => model.AccName, new { @id = "accname" })
+            @Html.HiddenFor(model => model.PAT, new { @id = "pat" })
+
+            string[] values = new string[] { };
+
+            if (!string.IsNullOrEmpty(Model.ErrList))
+            {
+
+                values = Model.ErrList.Split('*');
+                foreach (var msg in values)
+                {
+                    <img src="~/Images/warning-sign.png" style="width:15px; height:15px;" />
+                    <label id="errmsg" style="color:black;font-weight:100;display:inline">@msg</label><br />
+                }
+                <script>
+                    $(document).ready(function () {
+                        $('#diverror').removeClass('hidden');
+                        $('#closebtn').click(function () {
+                            $('#diverror').empty();
+                            $('#diverror').addClass('hidden');
+                            $('#erlist').empty();
+                        });
+                        var query = window.location.search.substring(1)
+                        if (query.length) {
+                            if (window.history != undefined && window.history.pushState != undefined) {
+                                window.history.pushState({}, document.title, window.location.pathname + "?accessToken=" + $('#pat').val() + "&accountName=" + $('#accname').val());
+                            }
+                        }
+                    });
+                </script>
+            }
+        }
+    </div>
+    <div>
+        @if (!string.IsNullOrEmpty(Model.SuccessMsg))
+            {
+            @Html.HiddenFor(model => model.AccName, new { @id = "accnamem" })
+            @Html.HiddenFor(model => model.PAT, new { @id = "patm" })
+            <br />
+            <br />
+            <script>
+                $(document).ready(function () {
+                    $('#diverror').removeClass('hidden');
+                    $('#closebtn').click(function () {
+                        $('#diverror').empty();
+                        $('#diverror').addClass('hidden');
+                    });
+                    //                    window.history.pushState({}, document.title, window.location.pathname + "?accname=" + $('#accnamem').val() + "&pat=" + $('#patm').val());
+
+                    var query = window.location.search.substring(1)
+                    if (query.length) {
+                        if (window.history != undefined && window.history.pushState != undefined) {
+                            window.history.pushState({}, document.title, window.location.pathname + "?accessToken=" + $('#patm').val() + "&accountName=" + $('#accnamem').val());
+
+                        }
+                    }
+                });
+            </script>
+            <img src="~/Images/succimgs.jpg" style="width:10px; height:10px;" />
+
+            <label id="succ" style="color:green;font-weight:100;">@Model.SuccessMsg</label><br />
+            <label>Here is the URL for the areas:</label><br />
+            <a id="url" style="color:blue;font-weight:100;" href="@Model.accURL">@Model.accURL</a>
+        }
+    </div>
+    <div style="margin-top:15px; margin-bottom:15px;">
+        <button class="btn btn-primary btn-sm pull-right" id="closebtn">Close</button><br />
+    </div>
+</div>
+<br />
+<br />
+
+<div class="container">
+    <div class="rcorners2 col-sm-offset-3 col-sm-6" style="padding-bottom:8px;">
+        <div class="divhead">
+            <b style="font-size:16px;color:#3a87ad">Contact Us </b>
+        </div>
+        <div style="margin-left: 12px; font-weight:100">
+            <label class="font">
+                To upload more than 50 rows and more than 3 levels of Areas, Contact Us.
+            </label>
+        </div>
+        <div class="col-sm-4 pull-right">
+            <button class="btn btn-primary btn-sm" id="adminmail">I'm Interested</button>
+        </div>
+        <div id="mailloader" style="margin-top: 0px;margin-left: 54px; visibility:hidden;">
+            <b>Sending mail to admin, please wait..</b>
+            <img src="~/Images/loader.gif" style="width:30px;" />
+        </div>
+        <div id="snackbar">Mail has been sent.</div>
+    </div>
+
+    <div class="col-sm-3" style="">
+        <div class="divhead">
+            <b style="font-size:16px;color:#3a87ad; border-radius:5px;">Our other tools </b>
+        </div>
+        <div style=" font-weight:100;border: 1px solid #d9edf7;border-radius: 5px;">
+            <div>
+                <label class="font">
+                    <a href="https://marketplace.visualstudio.com/items?itemName=canarysautomationspvtltd.VSTS-TeamProject-Monitor"><b style="margin-left: 14px;">VSTS TeamProject Monitor</b></a>
+                </label>
+            </div>
+
+            <div>
+                <label class="font">
+                    <a href="https://marketplace.visualstudio.com/items?itemName=canarysautomationspvtltd.dashboardmigratortool"><b style="margin-left: 14px;">VSTS Copy Dashboard</b></a>
+                </label>
+            </div>
+
+
+            <div>
+                <label class="font">
+                    <a href="https://marketplace.visualstudio.com/items?itemName=canarysautomationspvtltd.canarysautomationspvtltd"><b style="margin-left: 14px;">VSTS on Mobile</b></a>
+                </label>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br />
+<div class="container">
+    <div class="rcorners2 col-sm-offset-3 col-sm-6 col-sm-offset-3">
+        <div class="divhead">
+            <b style="font-size:16px;color:#3a87ad">How to Import Area </b>
+        </div>
+        <div style="margin-left: 12px; font-weight:100">
+            <label class="font">
+                1.	Sign into the tool using your VSTS credentials
+            </label>
+            <label class="font">
+                2.	Select the VSTS Account and Team Project for which you want to imports Area (Paths)
+            </label>
+
+            <label class="font">
+                3.	Select the .CSV which consists the Area (Paths) with levels
+            </label>
+            <label class="font">
+                4.	Click on Import Button
+            </label>
+
+        </div>
+    </div>
+</div>
+<br />
+<div class="container">
+
+    <div class="rcorners2  col-sm-6 col-sm-offset-3">
+        <div class="divhead">
+            <b style="font-size:16px;color:#3a87ad">Supported scenarios </b>
+        </div>
+        <div style="margin-left: 12px; font-weight:100">
+            <label class="font">
+                1.	Upload Area Paths from .CSV file
+            </label>
+            <label class="font">
+                2.	Upload Multi-level Area Path (Up to 14 is supported by VSTS)
+            </label>
+
+            <label class="font">
+                3.	Import Bulk Area (Paths)- Currently Tested for 15,000 Area Paths including child Area Paths.
+            </label>
+
+        </div>
+    </div>
+</div>
+
+<br />
+<br />
+<br />
+
+
+
+

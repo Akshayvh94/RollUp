@@ -1,0 +1,42 @@
+D:\Canarys\GEneral RollUp\RollUpApi\VstsConnector\bin\Release\VstsConnector.dll
+D:\Canarys\GEneral RollUp\RollUpApi\VstsConnector\bin\Release\VstsConnector.pdb
+D:\Canarys\GEneral RollUp\RollUpApi\VstsConnector\bin\Release\Newtonsoft.Json.dll
+D:\Canarys\GEneral RollUp\RollUpApi\VstsConnector\bin\Release\Newtonsoft.Json.xml
+D:\Canarys\GEneral RollUp\RollUpApi\VstsConnector\obj\Release\VstsConnector.csprojResolveAssemblyReference.cache
+D:\Canarys\GEneral RollUp\RollUpApi\VstsConnector\obj\Release\VstsConnector.dll
+D:\Canarys\GEneral RollUp\RollUpApi\VstsConnector\obj\Release\VstsConnector.pdb
+D:\Canarys\General RollUp - Part 2\RollUpApi\VstsConnector\bin\Release\VstsConnector.dll
+D:\Canarys\General RollUp - Part 2\RollUpApi\VstsConnector\bin\Release\VstsConnector.pdb
+D:\Canarys\General RollUp - Part 2\RollUpApi\VstsConnector\bin\Release\Newtonsoft.Json.dll
+D:\Canarys\General RollUp - Part 2\RollUpApi\VstsConnector\bin\Release\Newtonsoft.Json.xml
+D:\Canarys\General RollUp - Part 2\RollUpApi\VstsConnector\obj\Release\VstsConnector.csprojResolveAssemblyReference.cache
+D:\Canarys\General RollUp - Part 2\RollUpApi\VstsConnector\obj\Release\VstsConnector.dll
+D:\Canarys\General RollUp - Part 2\RollUpApi\VstsConnector\obj\Release\VstsConnector.pdb
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\VstsConnector\bin\Release\VstsConnector.dll.config
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\VstsConnector\bin\Release\VstsConnector.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\VstsConnector\bin\Release\VstsConnector.pdb
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\VstsConnector\bin\Release\EntityFramework.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\VstsConnector\bin\Release\EntityFramework.SqlServer.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\VstsConnector\bin\Release\Newtonsoft.Json.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\VstsConnector\bin\Release\System.Web.Mvc.Extensions.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\VstsConnector\bin\Release\EntityFramework.xml
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\VstsConnector\bin\Release\EntityFramework.SqlServer.xml
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\VstsConnector\bin\Release\Newtonsoft.Json.xml
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\VstsConnector\bin\Release\System.Web.Mvc.Extensions.xml
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\VstsConnector\obj\Release\VstsConnector.csprojResolveAssemblyReference.cache
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\VstsConnector\obj\Release\VstsConnector.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\VstsConnector\obj\Release\VstsConnector.pdb
+D:\Canarys\Creating Web hooks\Create Hooks\VstsConnector\bin\Release\VstsConnector.dll.config
+D:\Canarys\Creating Web hooks\Create Hooks\VstsConnector\bin\Release\VstsConnector.dll
+D:\Canarys\Creating Web hooks\Create Hooks\VstsConnector\bin\Release\VstsConnector.pdb
+D:\Canarys\Creating Web hooks\Create Hooks\VstsConnector\bin\Release\EntityFramework.dll
+D:\Canarys\Creating Web hooks\Create Hooks\VstsConnector\bin\Release\EntityFramework.SqlServer.dll
+D:\Canarys\Creating Web hooks\Create Hooks\VstsConnector\bin\Release\Newtonsoft.Json.dll
+D:\Canarys\Creating Web hooks\Create Hooks\VstsConnector\bin\Release\System.Web.Mvc.Extensions.dll
+D:\Canarys\Creating Web hooks\Create Hooks\VstsConnector\bin\Release\EntityFramework.xml
+D:\Canarys\Creating Web hooks\Create Hooks\VstsConnector\bin\Release\EntityFramework.SqlServer.xml
+D:\Canarys\Creating Web hooks\Create Hooks\VstsConnector\bin\Release\Newtonsoft.Json.xml
+D:\Canarys\Creating Web hooks\Create Hooks\VstsConnector\bin\Release\System.Web.Mvc.Extensions.xml
+D:\Canarys\Creating Web hooks\Create Hooks\VstsConnector\obj\Release\VstsConnector.csprojResolveAssemblyReference.cache
+D:\Canarys\Creating Web hooks\Create Hooks\VstsConnector\obj\Release\VstsConnector.dll
+D:\Canarys\Creating Web hooks\Create Hooks\VstsConnector\obj\Release\VstsConnector.pdb

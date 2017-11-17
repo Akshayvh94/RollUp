@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title VSTS RollUp</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link rel="icon" href="~/Images/favicon.png">
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top" style="background-color:#2D3E52;">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    
+                </button>
+                <img src="~/Images/canarys-logo.png" style="height:50px; width:190px;" class="pull-left" />
+                @Html.ActionLink("VSTS RollUp", "Index", "Index", new { area = "" }, new { @class = "navbar-brand", @style = "color:white; margin-left: 340px;" })
+            </div>
+            <div class="navbar-collapse collapse" style="float:right">
+                <ul class="nav navbar-nav">
+                    @*<li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("About", "About", "Home")</li>*@
+                    <li><a href="../Index/Callback" style="color:white;">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class=" body-content">
+        @RenderBody()
+        <footer class="footer navbar navbar-default navbar-fixed-bottom">
+            <p style="color:white;">&copy; @DateTime.Now.Year - Canarys Automations Pvt. Ltd</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+<style type="text/css">
+    .footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 45px;
+        background-color: #2D3E52;
+        padding-top: 8px;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .navbar-inverse {
+        border-color: white;
+    }
+</style>

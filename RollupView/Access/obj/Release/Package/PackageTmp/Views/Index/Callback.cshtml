@@ -1,0 +1,241 @@
+﻿@using Access.Models
+
+@model Dashboard
+<html>
+<head>
+
+    <style>
+        .checkboxContainer {
+            width: 100%;
+            background-color: darkgrey;
+            text-align: center;
+        }
+
+        .chk {
+            margin-left: 10px;
+            width: 20px;
+            height: 15px;
+        }
+
+        .headerNew {
+            background-color: #2D3E52;
+            height: 60px;
+            color: white;
+            text-align: center;
+            font-size: 22px;
+            padding-top: 8px;
+            margin: 0px;
+        }
+
+        .rcorners2 {
+            border-radius: 5px;
+            border: 1px solid #d9edf7;
+            margin-left: 293px;
+            padding-right: 0px;
+            padding-left: 0px;
+            width: 525px;
+        }
+
+        .divhead {
+            background-color: #d9edf7;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            margin-top: 0px;
+            padding-left: 15px;
+            height: 37px;
+        }
+
+        .font {
+            font-weight: 100
+        }
+
+        .navbar-inverse {
+            border-color: white;
+        }
+
+        .text {
+            margin-left: -8px;
+            margin-top: 12px;
+            font-family: 'Segoe UI';
+            font-size: 15px;
+            line-height: 170%;
+            text-align: justify;
+            font-weight: 500;
+        }
+    </style>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/AppScript/validatePat.js"></script>
+
+</head>
+<body>
+    <div class="navbar navbar-default navbar-fixed-top headerNew">
+        <img src="~/Images/canarys-logo.png" style="height:50px; width:190px;" class="pull-left" />
+        <div class="col-sm-6" style="margin-left:0px; padding-left:320px;margin-top: 6px;">
+            VSTS RollUp
+        </div>
+    </div>
+    <div class="container" style="width:100%;">
+        <div class="row">
+            <section>
+                <div class="wizard">
+
+                    @using (Html.BeginForm("Index", "Index", FormMethod.Post, new { @id = "Dashboardform" }))
+                    {
+
+                        @Html.HiddenFor(x => x.NewPat, new { @id = "hdnnewpats" })
+                        @Html.HiddenFor(x => x.Message, new { @id = "modelRetMsg" })
+
+                        <div class="tab-content">
+                            <div class="tab-pane active" role="tabpanel" id="step1">
+
+                                <div class="container">
+                                    <div class="col-sm-3" style="margin-right: 12px;margin-top: -46px;">
+
+                                        <a href="https://www.ecanarys.com/Products/Mobile-Apps/VSTS-on-Mobile">
+                                            <img src="~/Images/VSTSmobile.gif" style="margin-left: -50px;margin-top: 58px;height: 540px;" />
+                                        </a>
+                                    </div>
+                                    <div id="loginbox" class="mainbox col-md-6 col-sm-6 text" style="margin-top:20px; margin-left:0px">
+                                        <div>
+                                            <b>VSTS RollUp</b> is a Web Service which provides summed values of select fields for all child work items of a parent. Most project managers are interested in getting rollup of estimated or completed work, effort etc. Hence <b>RollUp</b> will automate the process of summing up the Effort fields, viz., Original Estimate, Remaining Work and Completed Work from child work item Tasks and show it at Requirement level, in the same fashion show summation of effort fields of all child Requirements(PBI/User Story) at Feature level and continues for Epic level.<br /><br />
+                                        </div>
+                                        <p>Once you register you VSTS Team Project with Canarys-VSTS RollUp service, It will create following items:</p>
+                                        <ul>
+                                            <li>
+                                                Creates 3 Service Hooks viz., Work Item Create, Update and Restore.
+                                            </li>
+                                            <li>
+                                                Creates a Query listing the hierarchical work items with effort fields.
+                                            </li>
+                                            <li>
+                                                A Dashboard showing the query on your VSTS Team Project home page with RollUp values.
+                                            </li>
+                                        </ul>
+
+                                        <div class="panel panel-info">
+                                            <div class="panel-heading">
+                                                <div class="panel-title"><b>Account Details</b></div>
+                                            </div>
+                                            <div style="padding-top:30px" class="panel-body">
+
+                                                <div style="display:none" id="msgSource" class="alert alert-danger col-sm-12">
+                                                    <button id="close" class="close" aria-label="Close" type="button" data-dismiss="modal">
+                                                        <span aria-hidden="true">×</span>
+                                                    </button>
+                                                    <label id="msg"></label>
+                                                </div>
+
+                                                <div style="display:none" id="msgSource1" class="alert alert-danger col-sm-12">
+                                                    <button id="close1" class="close" aria-label="Close" type="button" data-dismiss="modal">
+                                                        <span aria-hidden="true">×</span>
+                                                    </button>
+                                                    <label id="moderlRetrnMsg"></label>
+                                                </div>
+
+
+                                                <div class="form-horizontal">
+                                                    <div class="form-group form-inline">
+                                                        <label class="col-sm-3 control-label" style="width:15%; padding-right: 28px;" title="VSTS Account Name">Account:</label><i>https://</i>
+
+                                                        @Html.TextBoxFor(m => m.accountName, new { @class = "form-control", @type = "text", @id = "ddlAcccountName" })<i>.visualstudio.com</i>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-3 control-label" style="width:25%; padding-right: 28px;" title="Personal Access Token">PAT:</label>
+
+                                                        @Html.TextBoxFor(m => m.NewPat, new { @class = "form-control", @type = "password", @id = "newpat" })
+                                                    </div>
+                                                    <div class="form-group" style="margin-left: 10px;">
+                                                        <i>This tool creates the servie hooks for work item create, update and restore. Click on link <a href="https://www.visualstudio.com/en-us/docs/setup-admin/team-services/use-personal-access-tokens-to-authenticate">How to create Personal Access Token (PAT) ?</a></i> <br />
+
+                                                    </div>
+                                                    <div class="input-group">
+                                                        <button type="button" class="btn btn-primary" id="submitForm" style="margin-left: 420px;">Continue</button>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div id="loader" style="display:none;margin-left:70px;">
+                                            <b>Loading team projects from the account, please wait</b>
+                                            <img src="~/Images/loader.gif" style="width:30px;" />
+                                        </div>
+                                        <p>For more infomation, check with <a href="https://www.ecanarys.com/Blogs/ArticleID/316/VSTS-Rollup-Service">VSTS Rollup Service Setup</a></p>
+                                        <p><label style="color:red">** Note - </label> Application works best with a non-IE browser.</p>
+
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
+                                    </div>
+
+                                    <div class="col-sm-3" style="margin-left: -13px; margin-top:-60px;padding-left: 50px;">
+                                        <div>
+                                            <a href="https://www.ecanarys.com/msdevops">
+                                                <img src="~/Images/devop-traing.png" />
+                                            </a>
+                                        </div>
+                                        <div style="margin-top:2px;">
+                                            <a href="https://www.ecanarys.com/msdevops">
+                                                <img src="~/Images/Canarys01.png" style="height: 156px; width: 275px; padding-top: 5px;" />
+                                            </a>
+                                        </div>
+                                        <div style="margin-top: 2px">
+                                            <a href="https://www.ecanarys.com/msdevops">
+                                                <img src="~/Images/devop-migrate.png" style="padding-top: 5px;" />
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    }
+                </div>
+            </section>
+        </div>
+    </div>
+
+</body>
+</html>
+@*<script type="text/javascript">
+
+        $(document).ready(function () {
+            $('#close').click(function () {
+                $("#msgSource").hide();
+            });
+            $('#close1').click(function () {
+                $("#msgSource1").hide();
+            });
+            var emsg = $('#modelRetMsg').val();
+            if (emsg != "") {
+                $('#msgSource1').show();
+                $('#moderlRetrnMsg').append(emsg);
+            }
+
+        });
+        $("#submitForm").click(function () {
+
+            var selectedAccount = $("#ddlAcccountName").val();
+            var newpat = $('#newpat').val();
+            if (selectedAccount == "") {
+                $("#msg").text("Please Enter Account Name");
+                $("#msgSource").show();
+                return;
+            }
+            if (newpat == "") {
+                $("#msg").text("Please Enter PAT for the account");
+                $("#msgSource").show();
+
+            }
+            else {
+                $('#hdnnewpats').val(newpat);
+                $("#submitForm").prop('disabled', true);
+                $('#newpat').prop('disabled', true);
+                $("#Dashboardform").submit();
+                $("#ddlAcccountName").prop('disabled', true);
+                $("#loader").show();
+            }
+        });
+
+    </script>*@

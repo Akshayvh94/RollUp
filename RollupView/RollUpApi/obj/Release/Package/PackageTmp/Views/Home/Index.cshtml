@@ -1,0 +1,27 @@
+﻿@using VstsConnector.Models
+@model ProjectCount
+<div id="proDiv">
+    @using (Html.BeginForm("Import", "Home", FormMethod.Post, new { enctype = "multipart/form-data", @id = "Import", @style = "margin-top: 20px;" }))
+    {
+        @Html.HiddenFor(model => model.AccName)
+        @Html.HiddenFor(model => model.PAT)
+
+        foreach (var mod in Model.value)
+        {
+
+        }
+
+
+        <div class="col-sm-4">
+            <label>Projects</label>
+            @Html.DropDownListFor(model => model.SelectedID, new SelectList(@Model.value, "Text", "Value"), "--select project--", new { @class = "form-control rmv", @id = "ProjectList" })
+        </div>
+
+        <div class="col-sm-4">
+            <button type="button" class="btn btn-primary" style="margin-top:25px" id="btnImport">Import</button>
+        </div>
+        <div class="col-sm-8" style="padding: 20px;">
+            <label style="color:red; display:inline">**</label><h5>The accepted file format is .csv. <a href="~/Files/AreaUpload.csv" download>Click here</a> to download a sample of file.</h5><br />
+        </div>
+    }
+</div>

@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/RollUpApi/v15/Server/sqlite3
+/.vs/RollUpApi/v15/sqlite3

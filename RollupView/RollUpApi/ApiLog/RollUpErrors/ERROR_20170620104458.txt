@@ -1,0 +1,10 @@
+Vsts call has been made at:6/20/2017 10:44:58 AM
+
+Host: localhost:21605
+
+Time Taken: 27.4400689
+Error has been occured :
+Could not load file or assembly 'Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+   at VstsConnector.WorkItem.GetWorkItemsDetailinBatch(Int32 id, String credentials, String url, String version)
+   at RollUpApi.Models.RollUpMethods.GetParentIds(Int32 firstParentId, String credentials, String URL) in c:\users\akshayh\documents\visual studio 2017\Projects\RollUpApi\RollUpApi\Models\RollUpMethods.cs:line 68
+   at RollUpApi.Controllers.RollUpController.Rollupworkitem(Object requestJson) in c:\users\akshayh\documents\visual studio 2017\Projects\RollUpApi\RollUpApi\Controllers\RollUpController.cs:line 216

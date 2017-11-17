@@ -1,0 +1,290 @@
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\ApplicationInsights.config
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\roslyn\csc.exe
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\roslyn\csc.exe.config
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\roslyn\csc.rsp
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\roslyn\csi.exe
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\roslyn\csi.rsp
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\roslyn\System.AppContext.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\roslyn\System.Collections.Immutable.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\roslyn\System.IO.FileSystem.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\roslyn\System.Reflection.Metadata.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\roslyn\vbc.exe
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\roslyn\vbc.exe.config
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\roslyn\vbc.rsp
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\roslyn\VBCSCompiler.exe
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\roslyn\VBCSCompiler.exe.config
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\Access.dll.config
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\Access.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\Access.pdb
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\Antlr3.Runtime.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\Microsoft.AI.DependencyCollector.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\Microsoft.AI.Web.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\Microsoft.AI.WindowsServer.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\Microsoft.ApplicationInsights.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\Microsoft.Web.Infrastructure.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\Newtonsoft.Json.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\System.Web.Helpers.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\System.Web.Mvc.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\System.Web.Optimization.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\System.Web.Razor.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\System.Web.WebPages.Deployment.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\System.Web.WebPages.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\System.Web.WebPages.Razor.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\VstsConnector.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\WebGrease.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\EntityFramework.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\VstsConnector.pdb
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\VstsConnector.dll.config
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\System.Web.Helpers.xml
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\System.Web.Mvc.xml
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\System.Web.Optimization.xml
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\System.Web.Razor.xml
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\System.Web.WebPages.xml
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\System.Web.WebPages.Deployment.xml
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\System.Web.WebPages.Razor.xml
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\Antlr3.Runtime.pdb
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\Newtonsoft.Json.xml
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\Microsoft.ApplicationInsights.xml
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\Microsoft.AI.DependencyCollector.xml
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\Microsoft.AI.WindowsServer.xml
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\Microsoft.AI.Web.xml
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\bin\EntityFramework.xml
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\obj\Debug\Access.csprojResolveAssemblyReference.cache
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\obj\Debug\Access.dll
+D:\Updating Projects\General RollUp - Part 3 to Confg Login\RollUpApiLogin\Access\obj\Debug\Access.pdb
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\ApplicationInsights.config
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\roslyn\csc.exe
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\roslyn\csc.exe.config
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\roslyn\csc.rsp
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\roslyn\csi.exe
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\roslyn\csi.rsp
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\roslyn\System.AppContext.dll
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\roslyn\System.Collections.Immutable.dll
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\roslyn\System.IO.FileSystem.dll
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\roslyn\System.Reflection.Metadata.dll
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\roslyn\vbc.exe
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\roslyn\vbc.exe.config
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\roslyn\vbc.rsp
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\roslyn\VBCSCompiler.exe
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\roslyn\VBCSCompiler.exe.config
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\Access.dll.config
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\Access.dll
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\Access.pdb
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\Antlr3.Runtime.dll
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\Microsoft.AI.DependencyCollector.dll
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\Microsoft.AI.Web.dll
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\Microsoft.AI.WindowsServer.dll
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\Microsoft.ApplicationInsights.dll
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\Microsoft.Web.Infrastructure.dll
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\Newtonsoft.Json.dll
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\System.Web.Helpers.dll
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\System.Web.Mvc.dll
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\System.Web.Optimization.dll
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\System.Web.Razor.dll
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\System.Web.WebPages.Deployment.dll
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\System.Web.WebPages.dll
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\System.Web.WebPages.Razor.dll
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\VstsConnector.dll
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\WebGrease.dll
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\EntityFramework.dll
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\VstsConnector.pdb
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\VstsConnector.dll.config
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\System.Web.Helpers.xml
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\System.Web.Mvc.xml
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\System.Web.Optimization.xml
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\System.Web.Razor.xml
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\System.Web.WebPages.xml
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\System.Web.WebPages.Deployment.xml
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\System.Web.WebPages.Razor.xml
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\Antlr3.Runtime.pdb
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\Newtonsoft.Json.xml
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\Microsoft.ApplicationInsights.xml
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\Microsoft.AI.DependencyCollector.xml
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\Microsoft.AI.WindowsServer.xml
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\Microsoft.AI.Web.xml
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\EntityFramework.xml
+D:\Canarys\Creating Web hooks\Create Hooks\Access\obj\Debug\Access.csprojResolveAssemblyReference.cache
+D:\Canarys\Creating Web hooks\Create Hooks\Access\obj\Debug\Access.dll
+D:\Canarys\Creating Web hooks\Create Hooks\Access\obj\Debug\Access.pdb
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\EntityFramework.SqlServer.dll
+D:\Canarys\Creating Web hooks\Create Hooks\Access\bin\EntityFramework.SqlServer.xml
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\ApplicationInsights.config
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\roslyn\csc.exe
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\roslyn\csc.exe.config
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\roslyn\csc.rsp
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\roslyn\csi.exe
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\roslyn\csi.rsp
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\roslyn\System.AppContext.dll
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\roslyn\vbc.exe
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\roslyn\vbc.exe.config
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\roslyn\vbc.rsp
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\roslyn\VBCSCompiler.exe
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\Access.dll.config
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\Access.dll
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\Access.pdb
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\Antlr3.Runtime.dll
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\EntityFramework.dll
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\EntityFramework.SqlServer.dll
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\Microsoft.AI.Web.dll
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\Microsoft.ApplicationInsights.dll
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\Newtonsoft.Json.dll
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\System.Web.Helpers.dll
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\System.Web.Mvc.dll
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\System.Web.Optimization.dll
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\System.Web.Razor.dll
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\System.Web.WebPages.Deployment.dll
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\System.Web.WebPages.dll
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\System.Web.WebPages.Razor.dll
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\WebGrease.dll
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\EntityFramework.xml
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\EntityFramework.SqlServer.xml
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\System.Web.Helpers.xml
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\System.Web.Mvc.xml
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\System.Web.Optimization.xml
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\System.Web.Razor.xml
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\System.Web.WebPages.xml
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\System.Web.WebPages.Deployment.xml
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\System.Web.WebPages.Razor.xml
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\Antlr3.Runtime.pdb
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\Newtonsoft.Json.xml
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\Microsoft.ApplicationInsights.xml
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\bin\Microsoft.AI.Web.xml
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\obj\Debug\Access.csproj.CoreCompileInputs.cache
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\obj\Debug\Access.dll
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\obj\Debug\Access.pdb
+C:\Users\AkshayH\Source\Repos\createhook\Creating Web hooks\Create Hooks\Access\obj\Debug\Access.csprojResolveAssemblyReference.cache
+D:\CanEng\RollUpView\Access\bin\ApplicationInsights.config
+D:\CanEng\RollUpView\Access\bin\roslyn\csc.exe
+D:\CanEng\RollUpView\Access\bin\roslyn\csc.exe.config
+D:\CanEng\RollUpView\Access\bin\roslyn\csc.rsp
+D:\CanEng\RollUpView\Access\bin\roslyn\csi.exe
+D:\CanEng\RollUpView\Access\bin\roslyn\csi.rsp
+D:\CanEng\RollUpView\Access\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\CanEng\RollUpView\Access\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\CanEng\RollUpView\Access\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\CanEng\RollUpView\Access\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\CanEng\RollUpView\Access\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\CanEng\RollUpView\Access\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\CanEng\RollUpView\Access\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\CanEng\RollUpView\Access\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\CanEng\RollUpView\Access\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\CanEng\RollUpView\Access\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\CanEng\RollUpView\Access\bin\roslyn\System.AppContext.dll
+D:\CanEng\RollUpView\Access\bin\roslyn\System.Collections.Immutable.dll
+D:\CanEng\RollUpView\Access\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\CanEng\RollUpView\Access\bin\roslyn\System.IO.FileSystem.dll
+D:\CanEng\RollUpView\Access\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\CanEng\RollUpView\Access\bin\roslyn\System.Reflection.Metadata.dll
+D:\CanEng\RollUpView\Access\bin\roslyn\vbc.exe
+D:\CanEng\RollUpView\Access\bin\roslyn\vbc.exe.config
+D:\CanEng\RollUpView\Access\bin\roslyn\vbc.rsp
+D:\CanEng\RollUpView\Access\bin\roslyn\VBCSCompiler.exe
+D:\CanEng\RollUpView\Access\bin\roslyn\VBCSCompiler.exe.config
+D:\CanEng\RollUpView\Access\bin\Access.dll.config
+D:\CanEng\RollUpView\Access\bin\Access.dll
+D:\CanEng\RollUpView\Access\bin\Access.pdb
+D:\CanEng\RollUpView\Access\bin\Antlr3.Runtime.dll
+D:\CanEng\RollUpView\Access\bin\EntityFramework.dll
+D:\CanEng\RollUpView\Access\bin\EntityFramework.SqlServer.dll
+D:\CanEng\RollUpView\Access\bin\Microsoft.AI.Agent.Intercept.dll
+D:\CanEng\RollUpView\Access\bin\Microsoft.AI.DependencyCollector.dll
+D:\CanEng\RollUpView\Access\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\CanEng\RollUpView\Access\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\CanEng\RollUpView\Access\bin\Microsoft.AI.Web.dll
+D:\CanEng\RollUpView\Access\bin\Microsoft.AI.WindowsServer.dll
+D:\CanEng\RollUpView\Access\bin\Microsoft.ApplicationInsights.dll
+D:\CanEng\RollUpView\Access\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\CanEng\RollUpView\Access\bin\Microsoft.Web.Infrastructure.dll
+D:\CanEng\RollUpView\Access\bin\Newtonsoft.Json.dll
+D:\CanEng\RollUpView\Access\bin\System.Web.Helpers.dll
+D:\CanEng\RollUpView\Access\bin\System.Web.Mvc.dll
+D:\CanEng\RollUpView\Access\bin\System.Web.Optimization.dll
+D:\CanEng\RollUpView\Access\bin\System.Web.Razor.dll
+D:\CanEng\RollUpView\Access\bin\System.Web.WebPages.Deployment.dll
+D:\CanEng\RollUpView\Access\bin\System.Web.WebPages.dll
+D:\CanEng\RollUpView\Access\bin\System.Web.WebPages.Razor.dll
+D:\CanEng\RollUpView\Access\bin\WebGrease.dll
+D:\CanEng\RollUpView\Access\bin\EntityFramework.xml
+D:\CanEng\RollUpView\Access\bin\EntityFramework.SqlServer.xml
+D:\CanEng\RollUpView\Access\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\CanEng\RollUpView\Access\bin\System.Web.Helpers.xml
+D:\CanEng\RollUpView\Access\bin\System.Web.Mvc.xml
+D:\CanEng\RollUpView\Access\bin\System.Web.Optimization.xml
+D:\CanEng\RollUpView\Access\bin\System.Web.Razor.xml
+D:\CanEng\RollUpView\Access\bin\System.Web.WebPages.xml
+D:\CanEng\RollUpView\Access\bin\System.Web.WebPages.Deployment.xml
+D:\CanEng\RollUpView\Access\bin\System.Web.WebPages.Razor.xml
+D:\CanEng\RollUpView\Access\bin\Antlr3.Runtime.pdb
+D:\CanEng\RollUpView\Access\bin\Newtonsoft.Json.xml
+D:\CanEng\RollUpView\Access\bin\Microsoft.ApplicationInsights.xml
+D:\CanEng\RollUpView\Access\bin\Microsoft.AI.DependencyCollector.xml
+D:\CanEng\RollUpView\Access\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\CanEng\RollUpView\Access\bin\Microsoft.AI.WindowsServer.xml
+D:\CanEng\RollUpView\Access\bin\Microsoft.AI.Web.xml
+D:\CanEng\RollUpView\Access\obj\Debug\Access.csproj.CoreCompileInputs.cache
+D:\CanEng\RollUpView\Access\obj\Debug\Access.dll
+D:\CanEng\RollUpView\Access\obj\Debug\Access.pdb
+D:\CanEng\RollUpView\Access\obj\Debug\Access.csprojResolveAssemblyReference.cache

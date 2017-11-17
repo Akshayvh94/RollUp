@@ -1,0 +1,35 @@
+﻿{
+  "name": "RollUp",
+  "refreshInterval": 0,
+  "position": 6,
+  "eTag": "6",
+  "widgets": [
+    {
+      "eTag": "1",
+      "name": "RollUpView",
+      "position": {
+        "row": 1,
+        "column": 1
+      },
+      "size": {
+        "rowSpan": 3,
+        "columnSpan": 4
+      },
+      "settings": "{\"query\":{\"queryId\":\"$QID$\",\"queryName\":\"RollUpView\"},\"selectedColumns\":[{\"name\":\"Title\",\"referenceName\":\"System.Title\"},{\"name\":\"Work Item Type\",\"referenceName\":\"System.WorkItemType\"},{\"name\":\"Original Estimate\",\"referenceName\":\"Microsoft.VSTS.Scheduling.OriginalEstimate\"},{\"name\":\"Remaining Work\",\"referenceName\":\"Microsoft.VSTS.Scheduling.RemainingWork\"},{\"name\":\"Completed Work\",\"referenceName\":\"Microsoft.VSTS.Scheduling.CompletedWork\"}],\"lastArtifactName\":\"RollUpView\"}",
+      "settingsVersion": {
+        "major": 1,
+        "minor": 0,
+        "patch": 0
+      },
+      "artifactId": "",
+      "isEnabled": true,
+      "contentUri": null,
+      "contributionId": "ms.vss-mywork-web.Microsoft.VisualStudioOnline.MyWork.WitViewWidget",
+      "typeId": "Microsoft.VisualStudioOnline.MyWork.WitViewWidget",
+      "configurationContributionId": "ms.vss-mywork-web.Microsoft.VisualStudioOnline.MyWork.WitViewWidget.Configuration",
+      "configurationContributionRelativeId": "Microsoft.VisualStudioOnline.MyWork.WitViewWidget.Configuration",
+      "isNameConfigurable": true
+    }
+  ]
+
+}

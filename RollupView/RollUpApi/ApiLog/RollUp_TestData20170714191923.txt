@@ -1,0 +1,137 @@
+Vsts call has been made at:7/14/2017 7:19:23 PM
+
+Host: localhost:21605
+
+{
+  "subscriptionId": "b4de6dc7-eeeb-49d1-8252-cdef89c32a67",
+  "notificationId": 2,
+  "id": "7584eb2b-3c29-43ca-86e0-b55eff5d2f29",
+  "eventType": "workitem.updated",
+  "publisherId": "tfs",
+  "scope": "all",
+  "message": {
+    "text": "Task #42 (New Task) updated by Akshay Hosur\r\n(https://rolluppro.visualstudio.com/web/wi.aspx?pcguid=a49d5a19-de59-4ebb-9baf-8e29087e7db7&id=42)",
+    "html": "<a href=\"https://rolluppro.visualstudio.com/web/wi.aspx?pcguid=a49d5a19-de59-4ebb-9baf-8e29087e7db7&amp;id=42\">Task #42</a> (New Task) updated by Akshay Hosur",
+    "markdown": "[Task #42](https://rolluppro.visualstudio.com/web/wi.aspx?pcguid=a49d5a19-de59-4ebb-9baf-8e29087e7db7&id=42) (New Task) updated by Akshay Hosur"
+  },
+  "detailedMessage": {
+    "text": "Task #42 (New Task) updated by Akshay Hosur\r\n(https://rolluppro.visualstudio.com/web/wi.aspx?pcguid=a49d5a19-de59-4ebb-9baf-8e29087e7db7&id=42)\r\n\r\n",
+    "html": "<a href=\"https://rolluppro.visualstudio.com/web/wi.aspx?pcguid=a49d5a19-de59-4ebb-9baf-8e29087e7db7&amp;id=42\">Task #42</a> (New Task) updated by Akshay Hosur<ul></ul>",
+    "markdown": "[Task #42](https://rolluppro.visualstudio.com/web/wi.aspx?pcguid=a49d5a19-de59-4ebb-9baf-8e29087e7db7&id=42) (New Task) updated by Akshay Hosur\r\n\r\n"
+  },
+  "resource": {
+    "id": 2,
+    "workItemId": 42,
+    "rev": 2,
+    "revisedBy": {
+      "id": "9f3e1329-2717-61ec-915c-887ed4ccf1f1",
+      "name": "Akshay Hosur <H.akshay@outlook.com>",
+      "url": "https://app.vssps.visualstudio.com/A489c4bd5-aa1a-46e2-ba14-031189503cf0/_apis/Identities/9f3e1329-2717-61ec-915c-887ed4ccf1f1"
+    },
+    "revisedDate": "9999-01-01T00:00:00Z",
+    "fields": {
+      "System.Rev": {
+        "oldValue": 1,
+        "newValue": 2
+      },
+      "System.AuthorizedDate": {
+        "oldValue": "2017-07-14T09:45:57.827Z",
+        "newValue": "2017-07-14T09:50:06.12Z"
+      },
+      "System.RevisedDate": {
+        "oldValue": "2017-07-14T09:50:06.12Z",
+        "newValue": "9999-01-01T00:00:00Z"
+      },
+      "System.ChangedDate": {
+        "oldValue": "2017-07-14T09:45:57.827Z",
+        "newValue": "2017-07-14T09:50:06.12Z"
+      },
+      "System.Watermark": {
+        "oldValue": 334,
+        "newValue": 335
+      },
+      "Microsoft.VSTS.Scheduling.RemainingWork": {
+        "oldValue": 2.0,
+        "newValue": 3.0
+      },
+      "Microsoft.VSTS.Scheduling.CompletedWork": {
+        "oldValue": 4.0,
+        "newValue": 3.0
+      }
+    },
+    "_links": {
+      "self": {
+        "href": "https://rolluppro.visualstudio.com/_apis/wit/workItems/42/updates/2"
+      },
+      "workItemUpdates": {
+        "href": "https://rolluppro.visualstudio.com/_apis/wit/workItems/42/updates"
+      },
+      "parent": {
+        "href": "https://rolluppro.visualstudio.com/_apis/wit/workItems/42"
+      },
+      "html": {
+        "href": "https://rolluppro.visualstudio.com/web/wi.aspx?pcguid=a49d5a19-de59-4ebb-9baf-8e29087e7db7&id=42"
+      }
+    },
+    "url": "https://rolluppro.visualstudio.com/_apis/wit/workItems/42/updates/2",
+    "revision": {
+      "id": 42,
+      "rev": 2,
+      "fields": {
+        "System.AreaPath": "RolllUp2API",
+        "System.TeamProject": "RolllUp2API",
+        "System.IterationPath": "RolllUp2API",
+        "System.WorkItemType": "Task",
+        "System.State": "New",
+        "System.Reason": "New",
+        "System.CreatedDate": "2017-07-14T09:45:57.827Z",
+        "System.CreatedBy": "Akshay Hosur <H.akshay@outlook.com>",
+        "System.ChangedDate": "2017-07-14T09:50:06.12Z",
+        "System.ChangedBy": "Akshay Hosur <H.akshay@outlook.com>",
+        "System.Title": "New Task",
+        "Microsoft.VSTS.Scheduling.RemainingWork": 3.0,
+        "Microsoft.VSTS.Scheduling.OriginalEstimate": 6.0,
+        "Microsoft.VSTS.Scheduling.CompletedWork": 3.0,
+        "Microsoft.VSTS.Common.StateChangeDate": "2017-07-14T09:45:57.827Z",
+        "Microsoft.VSTS.Common.Priority": 2
+      },
+      "relations": [
+        {
+          "rel": "System.LinkTypes.Hierarchy-Reverse",
+          "url": "https://rolluppro.visualstudio.com/_apis/wit/workItems/41",
+          "attributes": {
+            "isLocked": false
+          }
+        }
+      ],
+      "_links": {
+        "self": {
+          "href": "https://rolluppro.visualstudio.com/_apis/wit/workItems/42/revisions/2"
+        },
+        "workItemRevisions": {
+          "href": "https://rolluppro.visualstudio.com/_apis/wit/workItems/42/revisions"
+        },
+        "parent": {
+          "href": "https://rolluppro.visualstudio.com/_apis/wit/workItems/42"
+        }
+      },
+      "url": "https://rolluppro.visualstudio.com/_apis/wit/workItems/42/revisions/2"
+    }
+  },
+  "resourceVersion": "1.0",
+  "resourceContainers": {
+    "collection": {
+      "id": "a49d5a19-de59-4ebb-9baf-8e29087e7db7",
+      "baseUrl": "https://rolluppro.visualstudio.com/"
+    },
+    "account": {
+      "id": "489c4bd5-aa1a-46e2-ba14-031189503cf0",
+      "baseUrl": "https://rolluppro.visualstudio.com/"
+    },
+    "project": {
+      "id": "97cadce9-5b34-4cea-bdd0-fd596f9fbd7c",
+      "baseUrl": "https://rolluppro.visualstudio.com/"
+    }
+  },
+  "createdDate": "2017-07-14T09:50:06.3970905Z"
+}

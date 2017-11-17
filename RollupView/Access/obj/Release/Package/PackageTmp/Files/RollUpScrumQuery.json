@@ -1,0 +1,6 @@
+﻿{
+  "name": "RollUpView",
+
+  "wiql": "select [System.WorkItemType], [System.Title], [System.State], [Microsoft.VSTS.Scheduling.OriginalEstimate], [Microsoft.VSTS.Scheduling.CompletedWork], [Microsoft.VSTS.Scheduling.RemainingWork], [Microsoft.VSTS.Scheduling.Effort], [Microsoft.VSTS.Common.BusinessValue], [Microsoft.VSTS.Common.ValueArea], [System.Tags] from WorkItemLinks where (Source.[System.WorkItemType] in ('Epic')) and (Source.[System.AreaPath] = '$Projectname1$') and Source.[System.IterationPath] under '$Projectname2$' and Source.[System.State] in ('New', 'In Progress') and [System.Links.LinkType] = 'System.LinkTypes.Hierarchy-Forward' and ((Target.[System.WorkItemType] in ('Epic')) and (Target.[System.Id] > 0) and Target.[System.IterationPath] under '$Projectname3$' and Target.[System.State] in ('New', 'In Progress') or ((Target.[System.WorkItemType] in ('Feature')) and Target.[System.State] in ('New', 'In Progress', 'Done')) or ((Target.[System.WorkItemType] in ('Product Backlog Item', 'Bug')) and Target.[System.State] in ('New', 'Approved', 'Committed', 'Done')) or ((Target.[System.WorkItemType] in ('Task')) and Target.[System.State] in ('To Do', 'In Progress', 'Done'))) order by [Microsoft.VSTS.Common.BacklogPriority] asc, [System.Id] asc mode (Recursive)"
+
+}

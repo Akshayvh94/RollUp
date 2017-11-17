@@ -1,0 +1,1575 @@
+﻿<html>
+<head>
+    <style>
+        .checkboxContainer {
+            width: 100%;
+            background-color: darkgrey;
+            text-align: center;
+        }
+
+        .chk {
+            margin-left: 10px;
+            width: 20px;
+            height: 15px;
+        }
+
+        .headerNew {
+            background-color: #2D3E52;
+            height: 60px;
+            color: white;
+            text-align: center;
+            font-size: 22px;
+            padding-top: 8px;
+            margin: 0px;
+        }
+
+        .navbar-inverse {
+            border-color: white;
+        }
+    </style>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top headerNew">
+        <img src="~/Images/canarys-logo.png" style="height:50px; width:190px;" class="pull-left" />
+        <div class="col-sm-6" style="margin-left:0px; padding-left:320px;margin-top: 6px;">
+            RollUp
+        </div>
+    </div>
+    <div>
+        <div class="tab-pane active" role="tabpanel" id="step1">
+            <div id="sourecInputs">
+                <div class="" style="margin-left:-12px;">
+                    <div class="col-sm-3" style="margin-top: 18px;margin-left: 35px;padding-right: 0px;padding-left: 0px;width: 294px;">
+                        <a href="https://www.ecanarys.com/Products/Mobile-Apps/VSTS-on-Mobile">
+                            <img src="~/Images/VSTSmobile.gif" style="margin-top: -15px;height: 540px;" />
+                        </a>
+
+                    </div>
+                    <div class="col-sm-7" style="margin-left:0px; margin-top:12px;width:699px;">
+                        <div class="">
+                            <b>
+                                If you ever wonder how create service hooks, this tool does the job!!
+                                This tool creates service hooks to the selected team project.
+                            </b>
+                        </div>
+                        <div class="rcorners2" style="margin-left:0px; margin-top:10px;">
+                            <div class="divhead">
+                                <b style="font-size:16px;color:#3a87ad">RollUp </b>
+                            </div>
+                            <div style="margin-left: 12px; font-weight:100">
+                                <ul>
+                                    <li>
+                                        <b>RollUp</b> is a tool to automate the process of summing up the Effort fields, viz., Original Estimate, Remaining Work and Completed Work.<br />
+                                    </li>
+                                    <li>
+                                        We used to fill the values for those fields in the task, which does not show the sum of effort at its parent work item (Requirement/PBI/User Story/Feature/Epic), this tool does that job. It sums up Estimate field values for the underlying similar type of work item and sum will be shown at the parent work item.
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <div class="rcorners2" style="margin-left:0px; margin-top:10px;">
+                            <div class="divhead">
+                                <b style="font-size:16px;color:#3a87ad">Before you start </b>
+                            </div>
+                            <div style="margin-left: 12px; font-weight:100">
+                                <ul>
+                                    <li>
+                                        You will need a Visual Studio Team Services (VSTS) account - if you do not have one, you can<a href="https://www.visualstudio.com/team-services/" target="_blank"> create one now</a>
+                                    </li>
+                                    <li>
+                                        You will need a Personal Access Token for the account. An overview of Personal Access Tokens (PAT) with instructions to create PAT is available <a href="https://www.visualstudio.com/en-us/docs/setup-admin/team-services/use-personal-access-tokens-to-authenticate" target="_blank">here</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <div class="rcorners2" style="margin-left:0px; margin-top:15px">
+                            <div class="divhead">
+                                <b style="font-size:16px;color:#3a87ad">How to Create Service Hooks </b>
+                            </div>
+                            <div style="margin-left: 12px; font-weight:100">
+                                <label class="font">
+                                    1.	Sign into the tool using your VSTS credentials
+                                </label>
+                                <label class="font">
+                                    2.	Select the VSTS Account and Team Project for which you want to create service hooks.
+                                </label>
+
+                                <label class="font">
+                                    3.	Provide Personal Access Token (PAT).
+                                </label><br />
+                                <label class="font">
+                                    4.	Click on Create Hook Button.
+                                </label>
+                            </div>
+                        </div>
+                        <div id="loginbox" class="" style="margin-top:12px; margin-left:0px;">
+                            <div class="panel panel-info">
+                                <div class="panel-heading">
+                                    <div class="panel-title"><b>Account verification</b></div>
+                                </div>
+                                <div style="padding-top:30px;padding-left: 85px;" class="panel-body">
+                                    <div style="display:none" id="msgSource" class="alert alert-danger col-sm-12"></div>
+
+                                    <a href="@Url.Action("Verify", "Account")" style="text-decoration: none;margin-left:108px;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="300px" height="50px" viewBox="0 0 3278 522" class="SignInButton">
+                                        <style type="text/css">
+                                            .fil0:hover {
+                                                fill: #4B4B4B;
+                                            }
+
+                                            .fnt0 {
+                                                font-size: 170px;
+                                                font-family: 'Segoe UI Semibold', 'Segoe UI';
+                                                text-decoration: none;
+                                            }
+</style>
+                                        <rect class="fil0" x="2" y="2" width="3174" height="517" fill="black" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        <rect x="150" y="129" width="122" height="122" fill="#F35325" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        <rect x="284" y="129" width="122" height="122" fill="#81BC06" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        <rect x="150" y="263" width="122" height="122" fill="#05A6F0" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        <rect x="284" y="263" width="122" height="122" fill="#FFBA08" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        <text x="470" y="357" fill="white" class="fnt0">Sign in with your VSTS Credentials</text>
+        </svg>
+                                    </a>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <br />
+                        </div>
+                        <div>
+                            <br />
+                        </div>
+                        <div>
+                            <br />
+                        </div>
+
+                    </div>
+                    <div class="col-sm-2" style="margin-top: 5px;">
+                        <a href="https://www.ecanarys.com/msdevops">
+                            <img src="~/Images/devop-migrate.png" />
+                        </a>
+                        <a href="https://www.ecanarys.com/msdevops">
+                            <img src="~/Images/Canarys01.png" style="height: 160px; width: 276px; padding-top: 5px;" />
+                        </a>
+                        <a href="https://www.ecanarys.com/msdevops">
+                            <img src="~/Images/devop-traing.png" style="padding-top: 5px;" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <ul class="list-inline pull-right">
+                <li><button type="button" class="btn btn-primary next-step" id="nxtFirst" disabled="disabled" style="display:none;">Next</button></li>
+            </ul>
+        </div>
+
+    </div>
+    @*<div tabindex="-1" class="modal fade in" id="hintModal" role="dialog" aria-hidden="false" aria-labelledby="exampleModalLabel" >
+        <div class="modal-dialog" role="document">
+            <div class="modal-content" style="width:100%;top:40px;">
+                <div class="modal-header" style="background-color: #337ab7;">
+                    <button class="close" aria-label="Close" type="button" data-dismiss="modal">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body" style="background-color:lavender;">
+                    <div style="text-align:center;">
+                        <h4>
+                            <i>RollUp</i>
+                        </h4>
+                    </div>
+                    <div>
+                        <video  width="500" controls>
+                            <source src="~/Files/RollupFul.mp4" type="video/mp4" />
+                            Video can not be played.    
+                        </video>
+                    </div>
+                </div>
+                <div class="modal-footer" style="background-color:lavender;">
+                    <button class="btn btn-primary" type="button" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>*@
+
+</body>
+</html>
+<style type="text/css">
+    .rcorners2 {
+        border-radius: 5px;
+        border: 1px solid #d9edf7;
+        margin-left: 293px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .divhead {
+        background-color: #d9edf7;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        margin-top: 0px;
+        padding-left: 15px;
+        height: 37px;
+    }
+
+    .font {
+        font-weight: 100
+    }
+
+    .container {
+        margin: 5px;
+    }
+</style>
+@*<script type="text/javascript">
+    $(document).ready(function () {
+        $('#hintModal').show();
+    });
+</script>*@

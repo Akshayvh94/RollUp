@@ -1,0 +1,18 @@
+Vsts call has been made at:7/14/2017 7:25:13 PM
+
+Host: localhost:21605
+
+Time Taken: 377.5357249
+Error has been occured :
+Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at VstsConnector.WorkItem.GetNewRollUpValues(String workItems, String credentials, String url, String version) in D:\Canarys\General RollUp - Part 2\RollUpApi\VstsConnector\WorkItem.cs:line 111
+   at RollUpApi.Models.RollUpMethods.CompareValue(Double[] OldVal, Double[] NewVal, Int32 PID, String credentials, String URL) in D:\Canarys\General RollUp - Part 2\RollUpApi\RollUpApi\Models\RollUpMethods.cs:line 128
+   at RollUpApi.Controllers.RollUpController.Rollupworkitem(Object requestJson) in D:\Canarys\General RollUp - Part 2\RollUpApi\RollUpApi\Controllers\RollUpController.cs:line 220

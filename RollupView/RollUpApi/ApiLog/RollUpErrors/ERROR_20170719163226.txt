@@ -1,0 +1,17 @@
+Vsts call has been made at:7/19/2017 4:32:27 PM
+
+Host: localhost:21605
+
+Time Taken: 54.3570631
+Error has been occured :
+Access to the path 'C:\RollUp_20170719163202.txt' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding)
+   at System.IO.File.InternalAppendAllText(String path, String contents, Encoding encoding)
+   at System.IO.File.AppendAllText(String path, String contents)
+   at RollUpApi.Controllers.RollUpController.LogData(String message) in D:\Canarys\General RollUp - Part 3\RollUpApiMail\RollUpApi\Controllers\RollUpController.cs:line 281
+   at RollUpApi.Controllers.RollUpController.Rollupworkitem(Object requestJson) in D:\Canarys\General RollUp - Part 3\RollUpApiMail\RollUpApi\Controllers\RollUpController.cs:line 225

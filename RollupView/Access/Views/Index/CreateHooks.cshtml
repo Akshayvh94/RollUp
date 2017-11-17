@@ -1,0 +1,298 @@
+﻿@using Access.Models
+@model AreaUpload.ProjectCount
+@{
+    ViewBag.Title = "CreateHooks";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/AppScript/CheckAccount.js"></script>
+<style type="text/css">
+    .rcorners2 {
+        border-radius: 5px;
+        border: 2px solid #d9edf7;
+        /*margin-left: 293px;*/
+        padding-right: 0px;
+        padding-left: 0px;
+        /*width: 525px;*/
+        margin-top: 15px;
+    }
+
+    .divhead {
+        background-color: #d9edf7;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        margin-top: 0px;
+        padding-left: 15px;
+        height: 37px;
+    }
+
+    .font {
+        font-weight: 100
+    }
+
+    .text {
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-top: 12px;
+        font-family: 'Segoe UI';
+        font-size: 15px;
+        line-height: 170%;
+        text-align: justify;
+        font-weight: 500;
+    }
+</style>
+<div class="col-sm-3" style="margin-right: 12px;margin-top: -46px;">
+    <a href="https://www.ecanarys.com/Products/Mobile-Apps/VSTS-on-Mobile">
+        <img src="~/Images/VSTSmobile.gif" style="margin-left: 0px;margin-top: 58px;height: 540px;" />
+    </a>
+</div>
+<div id="proDiv" class="col-sm-6">
+
+    <div class="rcorners2" style="height:170px">
+        <div class="divhead">
+            <b style="font-size:16px;color:#3a87ad">Project Selection </b>
+        </div>
+        @using (Html.BeginForm("SomeDefferentLogic", "Index", FormMethod.Post, new { enctype = "multipart/form-data", @id = "Import", @style = "margin-top: 20px;" }))
+        {
+            @Html.HiddenFor(model => model.AccName, new { @id = "accname1" })
+            @Html.HiddenFor(model => model.PAT, new { @id = "pat1" })
+            @Html.HiddenFor(model => model.NewPat, new { @id = "newpat" })
+            @Html.HiddenFor(model => model.ProjectName, new { @id = "projectname" })
+
+            <div class="col-sm-6 form-group">
+                <label>Projects</label>
+                @Html.DropDownListFor(model => model.SelectedID, new SelectList(@Model.ProjectList.Items, "Value", "Text"), "--select project--", new { @class = "form-control rmv", @id = "ProjectList" })
+            </div>           
+            <div class="col-sm-4  form-group">
+                <button type="button" class="btn btn-primary" style="margin-top:25px" id="btncreateHooks">Create Service Hooks</button>
+            </div>
+        }
+        <div id="loading" style="display:none;" class="col-sm-offset-3 col-sm-8">
+            <b>Processing your request, please wait..</b>
+            <img src="~/Images/loader.gif" style="width:30px;" />
+        </div>
+
+    </div>
+
+
+    <div class="hidden text" id="diverror" style="border:groove 2px #FFFFFF; margin-top: 45px;">
+        <div>
+            @if (Model.ErrList != null)
+            {
+                @Html.HiddenFor(model => model.ErrList, new { @id = "erlist" })
+                @Html.HiddenFor(model => model.AccName, new { @id = "accname2" })
+                @Html.HiddenFor(model => model.PAT, new { @id = "pat2" })
+                @Html.HiddenFor(model => model.NewPat, new { @id = "hdnnewpats" })
+
+
+                string[] values = new string[] { };
+
+                if (Model.ErrList.Length > 0)
+                {
+                    <p>The following Service Hooks are already created !!</p>
+
+                    values = Model.ErrList.Split(',');
+                    foreach (var msg in values)
+                    {
+                        <img src="~/Files/warning-sign.png" style="width:15px; height:15px;" />
+                        <label id="errmsg" style="color:black;font-weight:100;display:inline">@msg</label><br />
+                    }
+                    <script>
+                        $(document).ready(function () {
+                            $('#diverror').removeClass('hidden');
+                            $('#closebtn').click(function () {
+                                $('#diverror').empty();
+                                $('#diverror').addClass('hidden');
+                                $('#erlist').empty();
+                            });
+                            var newpat = $('#hdnnewpats').val();
+                            var accname = $('#accname2').val();
+                            $('#newpat').val(newpat);
+                            $('#accname1').val(accname);
+
+                            var query = window.location.search.substring(1)
+                            if (query.length) {
+                                if (window.history != undefined && window.history.pushState != undefined) {
+                                    window.history.pushState({}, document.title, window.location.pathname + "?NewPat=" + $('#hdnnewpats').val() + "&accountName=" + $('#accname2').val());
+                                }
+                            }
+                        });
+                    </script>
+                }
+            }
+        </div>
+        <div>
+
+            @if (!string.IsNullOrEmpty(Model.SuccessMsg))
+            {
+                @Html.HiddenFor(model => model.ErrList, new { @id = "erlistm" })
+                @Html.HiddenFor(model => model.AccName, new { @id = "accnamem" })
+                @Html.HiddenFor(model => model.PAT, new { @id = "patm" })
+                @Html.HiddenFor(model => model.NewPat, new { @id = "hdnnewpatsm" })
+                <br />
+                string[] suc = new string[] { };
+                if (Model.SuccessMsg.Length > 0)
+                {
+                    <p>The following Service Hooks are created to enable Rollup Service.</p>
+                    suc = Model.SuccessMsg.Split(',');
+                    foreach (var msgs in suc)
+                    {
+                        <img src="~/Files/succimgs.jpg" style="width:10px; height:10px;" />
+                        <label id="succ" style="color:green;font-weight:100;">@msgs</label><br />
+                    }
+                }
+
+                <p>For more infomation, check with <a href="https://www.ecanarys.com/Blogs/ArticleID/317/VSTS-Rollup-Service-How-to-use" target="_blank">VSTS Rollup Service - How to use</a></p>
+
+                <script>
+                    $(document).ready(function () {
+                        $('#diverror').removeClass('hidden');
+                        $('#closebtn').click(function () {
+                            $('#diverror').empty();
+                            $('#diverror').addClass('hidden');
+                        });
+
+                        var newpats = $('#hdnnewpatsm').val();
+                        var accnamem = $('#accnamem').val();
+                        $('#newpat').val(newpats);
+                        $('#accname1').val(accnamem);
+                        var query = window.location.search.substring(1)
+                        if (query.length)
+                            if (window.history != undefined && window.history.pushState != undefined) {
+                                window.history.pushState({}, document.title, window.location.pathname + "?NewPat=" + $('#hdnnewpatsm').val() + "&accountName=" + $('#accnamem').val());
+
+                            }
+                    });
+                </script>
+
+            }
+        </div>
+        <i>Please activate your service hooks from below link by clicking on <b>test</b> button for each service hooks.</i> &nbsp;
+        <a id="url" target="_blank" style="color:blue;font-weight:100;" href="@Model.accURL">Service Hooks URL</a>
+
+        <div style="height:50px; margin-top:20px;">
+            <i class="pull-left">If you like our tool please rate in VSTS marketplace! <a href="https://marketplace.visualstudio.com/items?itemName=canarysautomationspvtltd.vstsrollup#review-details" target="_blank" style="color:#cb16d3">Rate Us</a> </i>
+            <button class="btn btn-primary btn-sm pull-right  btn-inverse" id="closebtn">Close</button><br />
+        </div>
+    </div>
+
+</div>
+<div class="col-sm-3" style="margin-left: -13px; margin-top:17px;padding-left: 50px;">
+    <div>
+        <a href="https://www.ecanarys.com/msdevops">
+            <img src="~/Images/devop-traing.png" />
+        </a>
+    </div>
+    <div style="margin-top:2px;">
+        <a href="https://www.ecanarys.com/msdevops">
+            <img src="~/Images/Canarys01.png" style="height: 156px; width: 275px; padding-top: 5px;" />
+        </a>
+    </div>
+    <div style="margin-top: 2px">
+        <a href="https://www.ecanarys.com/msdevops">
+            <img src="~/Images/devop-migrate.png" style="padding-top: 5px;" />
+        </a>
+    </div>
+
+</div>
+
+@*<div class="col-sm-6 hidden text" id="diverror" style="border:groove 2px #FF91B0; margin-top: 60px;">
+        <div>
+            @if (Model.ErrList != null)
+                {
+                @Html.HiddenFor(model => model.ErrList, new { @id = "erlist" })
+                @Html.HiddenFor(model => model.AccName, new { @id = "accname2" })
+                @Html.HiddenFor(model => model.PAT, new { @id = "pat2" })
+                @Html.HiddenFor(model => model.NewPat, new { @id = "hdnnewpats" })
+
+
+                string[] values = new string[] { };
+
+                if (Model.ErrList.Length > 0)
+                {
+                    <p>The following Service Hooks are already created !!</p>
+
+                    values = Model.ErrList.Split(',');
+                    foreach (var msg in values)
+                    {
+                        <img src="~/Files/warning-sign.png" style="width:15px; height:15px;" />
+                        <label id="errmsg" style="color:black;font-weight:100;display:inline">@msg</label><br />
+                    }
+                    <script>
+                        $(document).ready(function () {
+                            $('#diverror').removeClass('hidden');
+                            $('#closebtn').click(function () {
+                                $('#diverror').empty();
+                                $('#diverror').addClass('hidden');
+                                $('#erlist').empty();
+                            });
+                            var newpat = $('#hdnnewpats').val();
+                            var accname = $('#accname2').val();
+                            $('#newpat').val(newpat);
+                            $('#accname1').val(accname);
+
+                            var query = window.location.search.substring(1)
+                            if (query.length) {
+                                if (window.history != undefined && window.history.pushState != undefined) {
+                                    window.history.pushState({}, document.title, window.location.pathname + "?NewPat=" + $('#hdnnewpats').val() + "&accountName=" + $('#accname2').val());
+                                }
+                            }
+                        });
+                    </script>
+                }
+            }
+        </div>
+        <div>
+
+            @if (!string.IsNullOrEmpty(Model.SuccessMsg))
+                {
+                @Html.HiddenFor(model => model.ErrList, new { @id = "erlistm" })
+                @Html.HiddenFor(model => model.AccName, new { @id = "accnamem" })
+                @Html.HiddenFor(model => model.PAT, new { @id = "patm" })
+                @Html.HiddenFor(model => model.NewPat, new { @id = "hdnnewpatsm" })
+                <br />
+                string[] suc = new string[] { };
+                if (Model.SuccessMsg.Length > 0)
+                {
+                    <p>The following Service Hooks are created to enable Rollup Service</p>
+                    suc = Model.SuccessMsg.Split(',');
+                    foreach (var msgs in suc)
+                    {
+                        <img src="~/Files/succimgs.jpg" style="width:10px; height:10px;" />
+                        <label id="succ" style="color:green;font-weight:100;">@msgs</label><br />
+                    }
+                }
+
+                <p>For more infomation, check with <a href="https://www.ecanarys.com/Blogs/ArticleID/317/VSTS-Rollup-Service-How-to-use" target="_blank">VSTS Rollup Service - How to use</a></p>
+
+                <script>
+                    $(document).ready(function () {
+                        $('#diverror').removeClass('hidden');
+                        $('#closebtn').click(function () {
+                            $('#diverror').empty();
+                            $('#diverror').addClass('hidden');
+                        });
+
+                        var newpats = $('#hdnnewpatsm').val();
+                        var accnamem = $('#accnamem').val();
+                        $('#newpat').val(newpats);
+                        $('#accname1').val(accnamem);
+                        var query = window.location.search.substring(1)
+                        if (query.length)
+                            if (window.history != undefined && window.history.pushState != undefined) {
+                                window.history.pushState({}, document.title, window.location.pathname + "?NewPat=" + $('#hdnnewpatsm').val() + "&accountName=" + $('#accnamem').val());
+
+                            }
+                    });
+                </script>
+
+            }
+        </div>
+        <i>Please activate your service hooks from below link by clicking on <b>test</b> button for each service hooks.</i><br />
+        <a id="url" target="_blank" style="color:blue;font-weight:100;" href="@Model.accURL">Service Hooks URL</a>
+
+        <div style="height:50px; margin-top:20px;">
+            <i class="pull-left">If you like our tool please rate in VSTS marketplace! <a href="https://marketplace.visualstudio.com/items?itemName=canarysautomationspvtltd.vstsrollup#review-details" target="_blank" style="color:#cb16d3">Rate Us</a> </i>
+            <button class="btn btn-primary btn-sm pull-right  btn-inverse" id="closebtn">Close</button><br />
+        </div>
+    </div>*@

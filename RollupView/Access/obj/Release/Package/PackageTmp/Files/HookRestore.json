@@ -1,0 +1,17 @@
+﻿{
+  "publisherId": "tfs",
+  "scope": "project",
+  "eventType": "workitem.restored",
+  "resourceVersion": "1.0",
+  "consumerId": "webHooks",
+  "eventDescription": "Any work item",
+  "consumerActionId": "httpRequest",
+  "publisherInputs": {
+    "areaPath": "",
+    "projectId": "$PRO$"
+  },
+  "consumerInputs": {
+    "url": "https://vstsrollupapi.azurewebsites.net/api/Rollup",
+    "basicAuthPassword": "$PAT$"
+  }
+}

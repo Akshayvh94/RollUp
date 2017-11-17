@@ -1,0 +1,10 @@
+Vsts call has been made at:9/13/2017 3:36:03 PM
+
+Host: localhost:21605
+
+Time Taken: 175.1102886
+Error has been occured :
+Value cannot be null.
+Parameter name: path
+   at System.IO.Directory.CreateDirectory(String path)
+   at RollUpApi.Controllers.RollUpController.Rollupworkitem(Object requestJson) in C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\Controllers\RollUpController.cs:line 363

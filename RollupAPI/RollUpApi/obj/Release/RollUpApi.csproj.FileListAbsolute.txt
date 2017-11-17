@@ -1,0 +1,226 @@
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\ApplicationInsights.config
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\roslyn\csc.exe
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\roslyn\csc.exe.config
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\roslyn\csc.rsp
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\roslyn\csi.exe
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\roslyn\csi.rsp
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\roslyn\System.AppContext.dll
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\roslyn\System.Collections.Immutable.dll
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\roslyn\System.IO.FileSystem.dll
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\roslyn\System.Reflection.Metadata.dll
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\roslyn\vbc.exe
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\roslyn\vbc.exe.config
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\roslyn\vbc.rsp
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\roslyn\VBCSCompiler.exe
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\roslyn\VBCSCompiler.exe.config
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\RollUpApi.dll.config
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\RollUpApi.dll
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\RollUpApi.pdb
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\Antlr3.Runtime.dll
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\Microsoft.AI.DependencyCollector.dll
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\Microsoft.AI.Web.dll
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\Microsoft.AI.WindowsServer.dll
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\Microsoft.ApplicationInsights.dll
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\Microsoft.Web.Infrastructure.dll
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\Newtonsoft.Json.dll
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\System.Net.Http.Formatting.dll
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\System.Web.Helpers.dll
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\System.Web.Http.dll
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\System.Web.Http.WebHost.dll
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\System.Web.Mvc.dll
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\System.Web.Optimization.dll
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\System.Web.Razor.dll
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\System.Web.WebPages.Deployment.dll
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\System.Web.WebPages.dll
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\System.Web.WebPages.Razor.dll
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\VstsConnector.dll
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\WebGrease.dll
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\VstsConnector.pdb
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\Newtonsoft.Json.xml
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\System.Net.Http.Formatting.xml
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\System.Web.Helpers.xml
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\System.Web.Http.xml
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\System.Web.Http.WebHost.xml
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\System.Web.Mvc.xml
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\System.Web.Optimization.xml
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\System.Web.Razor.xml
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\System.Web.WebPages.xml
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\System.Web.WebPages.Deployment.xml
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\System.Web.WebPages.Razor.xml
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\Antlr3.Runtime.pdb
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\Microsoft.ApplicationInsights.xml
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\Microsoft.AI.DependencyCollector.xml
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\Microsoft.AI.WindowsServer.xml
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\bin\Microsoft.AI.Web.xml
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\obj\Release\RollUpApi.csprojResolveAssemblyReference.cache
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\obj\Release\RollUpApi.dll
+D:\Canarys\GEneral RollUp\RollUpApi\RollUpApi\obj\Release\RollUpApi.pdb
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\ApplicationInsights.config
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\roslyn\csc.exe
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\roslyn\csc.exe.config
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\roslyn\csc.rsp
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\roslyn\csi.exe
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\roslyn\csi.rsp
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\roslyn\System.AppContext.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\roslyn\System.Collections.Immutable.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\roslyn\System.IO.FileSystem.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\roslyn\System.Reflection.Metadata.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\roslyn\vbc.exe
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\roslyn\vbc.exe.config
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\roslyn\vbc.rsp
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\roslyn\VBCSCompiler.exe
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\roslyn\VBCSCompiler.exe.config
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\RollUpApi.dll.config
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\RollUpApi.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\RollUpApi.pdb
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\Antlr3.Runtime.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\Microsoft.AI.DependencyCollector.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\Microsoft.AI.Web.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\Microsoft.AI.WindowsServer.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\Microsoft.ApplicationInsights.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\Microsoft.Web.Infrastructure.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\Newtonsoft.Json.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\System.Net.Http.Formatting.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\System.Web.Helpers.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\System.Web.Http.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\System.Web.Http.WebHost.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\System.Web.Mvc.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\System.Web.Optimization.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\System.Web.Razor.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\System.Web.WebPages.Deployment.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\System.Web.WebPages.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\System.Web.WebPages.Razor.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\VstsConnector.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\WebGrease.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\VstsConnector.pdb
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\Newtonsoft.Json.xml
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\System.Net.Http.Formatting.xml
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\System.Web.Helpers.xml
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\System.Web.Http.xml
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\System.Web.Http.WebHost.xml
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\System.Web.Mvc.xml
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\System.Web.Optimization.xml
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\System.Web.Razor.xml
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\System.Web.WebPages.xml
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\System.Web.WebPages.Deployment.xml
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\System.Web.WebPages.Razor.xml
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\Antlr3.Runtime.pdb
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\Microsoft.ApplicationInsights.xml
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\Microsoft.AI.DependencyCollector.xml
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\Microsoft.AI.WindowsServer.xml
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\bin\Microsoft.AI.Web.xml
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\obj\Release\RollUpApi.csprojResolveAssemblyReference.cache
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\obj\Release\RollUpApi.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\RollUpApi\obj\Release\RollUpApi.pdb
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\ApplicationInsights.config
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\roslyn\csc.exe
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\roslyn\csc.exe.config
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\roslyn\csc.rsp
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\roslyn\csi.exe
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\roslyn\csi.rsp
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\roslyn\System.AppContext.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\roslyn\vbc.exe
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\roslyn\vbc.exe.config
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\roslyn\vbc.rsp
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\roslyn\VBCSCompiler.exe
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\RollUpApi.dll.config
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\RollUpApi.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\RollUpApi.pdb
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\Antlr3.Runtime.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\Microsoft.AI.Web.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\Microsoft.ApplicationInsights.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\Newtonsoft.Json.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\System.Net.Http.Formatting.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\System.Web.Helpers.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\System.Web.Http.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\System.Web.Http.WebHost.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\System.Web.Mvc.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\System.Web.Optimization.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\System.Web.Razor.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\System.Web.WebPages.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\System.Web.WebPages.Razor.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\VstsConnector.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\WebGrease.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\VstsConnector.pdb
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\Newtonsoft.Json.xml
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\System.Net.Http.Formatting.xml
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\System.Web.Helpers.xml
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\System.Web.Http.xml
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\System.Web.Http.WebHost.xml
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\System.Web.Mvc.xml
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\System.Web.Optimization.xml
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\System.Web.Razor.xml
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\System.Web.WebPages.xml
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\System.Web.WebPages.Razor.xml
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\Antlr3.Runtime.pdb
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\Microsoft.ApplicationInsights.xml
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\bin\Microsoft.AI.Web.xml
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\obj\Release\RollUpApi.csprojResolveAssemblyReference.cache
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\obj\Release\RollUpApi.csproj.CoreCompileInputs.cache
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\obj\Release\RollUpApi.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\RollUpApi\obj\Release\RollUpApi.pdb

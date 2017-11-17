@@ -1,0 +1,22 @@
+D:\Canarys\GEneral RollUp\RollUpApi\VstsConnector\bin\Release\VstsConnector.dll
+D:\Canarys\GEneral RollUp\RollUpApi\VstsConnector\bin\Release\VstsConnector.pdb
+D:\Canarys\GEneral RollUp\RollUpApi\VstsConnector\bin\Release\Newtonsoft.Json.dll
+D:\Canarys\GEneral RollUp\RollUpApi\VstsConnector\bin\Release\Newtonsoft.Json.xml
+D:\Canarys\GEneral RollUp\RollUpApi\VstsConnector\obj\Release\VstsConnector.csprojResolveAssemblyReference.cache
+D:\Canarys\GEneral RollUp\RollUpApi\VstsConnector\obj\Release\VstsConnector.dll
+D:\Canarys\GEneral RollUp\RollUpApi\VstsConnector\obj\Release\VstsConnector.pdb
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\VstsConnector\bin\Release\VstsConnector.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\VstsConnector\bin\Release\VstsConnector.pdb
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\VstsConnector\bin\Release\Newtonsoft.Json.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\VstsConnector\bin\Release\Newtonsoft.Json.xml
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\VstsConnector\obj\Release\VstsConnector.csprojResolveAssemblyReference.cache
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\VstsConnector\obj\Release\VstsConnector.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\VstsConnector\obj\Release\VstsConnector.pdb
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\VstsConnector\bin\Release\VstsConnector.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\VstsConnector\bin\Release\VstsConnector.pdb
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\VstsConnector\bin\Release\Newtonsoft.Json.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\VstsConnector\bin\Release\Newtonsoft.Json.xml
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\VstsConnector\obj\Release\VstsConnector.csprojResolveAssemblyReference.cache
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\VstsConnector\obj\Release\VstsConnector.csproj.CoreCompileInputs.cache
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\VstsConnector\obj\Release\VstsConnector.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\VstsConnector\obj\Release\VstsConnector.pdb

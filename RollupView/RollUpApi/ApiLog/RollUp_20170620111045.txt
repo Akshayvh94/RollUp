@@ -1,0 +1,97 @@
+Vsts call has been made at:6/20/2017 11:10:45 AM
+
+Host: localhost:21605
+
+Time Taken: 59.2871249
+{
+  "subscriptionId": "0aed77d8-654c-4de4-baa9-12fd25a52e0c",
+  "notificationId": 8,
+  "id": "4dbaf7d8-6b4c-4087-90e5-71305b4caf0e",
+  "eventType": "workitem.created",
+  "publisherId": "tfs",
+  "scope": "all",
+  "message": {
+    "text": "Task #667 (Task2) created by Srivatsa\r\n(https://canmig.visualstudio.com/web/wi.aspx?pcguid=b6d41a39-16ef-4e9b-920a-00ba3072c17b&id=667)",
+    "html": "<a href=\"https://canmig.visualstudio.com/web/wi.aspx?pcguid=b6d41a39-16ef-4e9b-920a-00ba3072c17b&amp;id=667\">Task #667</a> (Task2) created by Srivatsa",
+    "markdown": "[Task #667](https://canmig.visualstudio.com/web/wi.aspx?pcguid=b6d41a39-16ef-4e9b-920a-00ba3072c17b&id=667) (Task2) created by Srivatsa"
+  },
+  "detailedMessage": {
+    "text": "Task #667 (Task2) created by Srivatsa\r\n(https://canmig.visualstudio.com/web/wi.aspx?pcguid=b6d41a39-16ef-4e9b-920a-00ba3072c17b&id=667)\r\n\r\n- Area: RollUp_Test\r\n- Iteration: RollUp_Test\r\n- State: Proposed\r\n- Assigned to: Srivatsa <globaladmin@sanjeevkumarishotmail.onmicrosoft.com>\r\n",
+    "html": "<a href=\"https://canmig.visualstudio.com/web/wi.aspx?pcguid=b6d41a39-16ef-4e9b-920a-00ba3072c17b&amp;id=667\">Task #667</a> (Task2) created by Srivatsa<ul>\r\n<li>Area: RollUp_Test</li>\r\n<li>Iteration: RollUp_Test</li>\r\n<li>State: Proposed</li>\r\n<li>Assigned to: Srivatsa <globaladmin@sanjeevkumarishotmail.onmicrosoft.com></li></ul>",
+    "markdown": "[Task #667](https://canmig.visualstudio.com/web/wi.aspx?pcguid=b6d41a39-16ef-4e9b-920a-00ba3072c17b&id=667) (Task2) created by Srivatsa\r\n\r\n* Area: RollUp_Test\r\n* Iteration: RollUp_Test\r\n* State: Proposed\r\n* Assigned to: Srivatsa <globaladmin@sanjeevkumarishotmail.onmicrosoft.com>\r\n"
+  },
+  "resource": {
+    "id": 667,
+    "rev": 1,
+    "fields": {
+      "System.AreaPath": "RollUp_Test",
+      "System.TeamProject": "RollUp_Test",
+      "System.IterationPath": "RollUp_Test",
+      "System.WorkItemType": "Task",
+      "System.State": "Proposed",
+      "System.Reason": "New",
+      "System.AssignedTo": "Srivatsa <globaladmin@sanjeevkumarishotmail.onmicrosoft.com>",
+      "System.CreatedDate": "2017-06-19T08:57:49.447Z",
+      "System.CreatedBy": "Srivatsa <globaladmin@sanjeevkumarishotmail.onmicrosoft.com>",
+      "System.ChangedDate": "2017-06-19T08:57:49.447Z",
+      "System.ChangedBy": "Srivatsa <globaladmin@sanjeevkumarishotmail.onmicrosoft.com>",
+      "System.Title": "Task2",
+      "Microsoft.VSTS.CMMI.Blocked": "No",
+      "Microsoft.VSTS.Common.StateChangeDate": "2017-06-19T08:57:49.447Z",
+      "Microsoft.VSTS.Common.Priority": 2,
+      "Microsoft.VSTS.Common.Triage": "Pending",
+      "Microsoft.VSTS.CMMI.TaskType": "Planned",
+      "Microsoft.VSTS.CMMI.RequiresReview": "No",
+      "Microsoft.VSTS.CMMI.RequiresTest": "No"
+    },
+    "relations": [
+      {
+        "rel": "System.LinkTypes.Hierarchy-Reverse",
+        "url": "https://canmig.visualstudio.com/_apis/wit/workItems/665",
+        "attributes": {
+          "isLocked": false
+        }
+      }
+    ],
+    "_links": {
+      "self": {
+        "href": "https://canmig.visualstudio.com/_apis/wit/workItems/667"
+      },
+      "workItemUpdates": {
+        "href": "https://canmig.visualstudio.com/_apis/wit/workItems/667/updates"
+      },
+      "workItemRevisions": {
+        "href": "https://canmig.visualstudio.com/_apis/wit/workItems/667/revisions"
+      },
+      "workItemHistory": {
+        "href": "https://canmig.visualstudio.com/_apis/wit/workItems/667/history"
+      },
+      "html": {
+        "href": "https://canmig.visualstudio.com/web/wi.aspx?pcguid=b6d41a39-16ef-4e9b-920a-00ba3072c17b&id=667"
+      },
+      "workItemType": {
+        "href": "https://canmig.visualstudio.com/b4396673-d9be-48c5-b7d0-b02bb8f10375/_apis/wit/workItemTypes/Task"
+      },
+      "fields": {
+        "href": "https://canmig.visualstudio.com/_apis/wit/fields"
+      }
+    },
+    "url": "https://canmig.visualstudio.com/_apis/wit/workItems/667"
+  },
+  "resourceVersion": "1.0",
+  "resourceContainers": {
+    "collection": {
+      "id": "b6d41a39-16ef-4e9b-920a-00ba3072c17b",
+      "baseUrl": "https://canmig.visualstudio.com/"
+    },
+    "account": {
+      "id": "63e4a51b-8762-4b97-b12b-d5be82a78ad0",
+      "baseUrl": "https://canmig.visualstudio.com/"
+    },
+    "project": {
+      "id": "b4396673-d9be-48c5-b7d0-b02bb8f10375",
+      "baseUrl": "https://canmig.visualstudio.com/"
+    }
+  },
+  "createdDate": "2017-06-19T08:57:50.2116535Z"
+}

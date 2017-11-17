@@ -1,0 +1,28 @@
+c:\users\akshayh\documents\visual studio 2017\Projects\RollUpApi\VstsConnector\bin\Debug\VstsConnector.dll
+c:\users\akshayh\documents\visual studio 2017\Projects\RollUpApi\VstsConnector\bin\Debug\VstsConnector.pdb
+c:\users\akshayh\documents\visual studio 2017\Projects\RollUpApi\VstsConnector\bin\Debug\Newtonsoft.Json.dll
+c:\users\akshayh\documents\visual studio 2017\Projects\RollUpApi\VstsConnector\bin\Debug\Newtonsoft.Json.xml
+c:\users\akshayh\documents\visual studio 2017\Projects\RollUpApi\VstsConnector\obj\Debug\VstsConnector.csprojResolveAssemblyReference.cache
+c:\users\akshayh\documents\visual studio 2017\Projects\RollUpApi\VstsConnector\obj\Debug\VstsConnector.dll
+c:\users\akshayh\documents\visual studio 2017\Projects\RollUpApi\VstsConnector\obj\Debug\VstsConnector.pdb
+D:\Canarys\General RollUp\RollUpApi\VstsConnector\bin\Debug\VstsConnector.dll
+D:\Canarys\General RollUp\RollUpApi\VstsConnector\bin\Debug\VstsConnector.pdb
+D:\Canarys\General RollUp\RollUpApi\VstsConnector\bin\Debug\Newtonsoft.Json.dll
+D:\Canarys\General RollUp\RollUpApi\VstsConnector\bin\Debug\Newtonsoft.Json.xml
+D:\Canarys\General RollUp\RollUpApi\VstsConnector\obj\Debug\VstsConnector.csprojResolveAssemblyReference.cache
+D:\Canarys\General RollUp\RollUpApi\VstsConnector\obj\Debug\VstsConnector.dll
+D:\Canarys\General RollUp\RollUpApi\VstsConnector\obj\Debug\VstsConnector.pdb
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\VstsConnector\bin\Debug\VstsConnector.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\VstsConnector\bin\Debug\VstsConnector.pdb
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\VstsConnector\bin\Debug\Newtonsoft.Json.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\VstsConnector\bin\Debug\Newtonsoft.Json.xml
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\VstsConnector\obj\Debug\VstsConnector.dll
+D:\Canarys\GenRollUp\General RollUp - part 1\RollUpApi\VstsConnector\obj\Debug\VstsConnector.pdb
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\VstsConnector\bin\Debug\VstsConnector.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\VstsConnector\bin\Debug\VstsConnector.pdb
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\VstsConnector\bin\Debug\Newtonsoft.Json.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\VstsConnector\bin\Debug\Newtonsoft.Json.xml
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\VstsConnector\obj\Debug\VstsConnector.csproj.CoreCompileInputs.cache
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\VstsConnector\obj\Debug\VstsConnector.dll
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\VstsConnector\obj\Debug\VstsConnector.pdb
+C:\Users\AkshayH\Source\Repos\VSTSRollUpApi\VstsConnector\obj\Debug\VstsConnector.csprojResolveAssemblyReference.cache

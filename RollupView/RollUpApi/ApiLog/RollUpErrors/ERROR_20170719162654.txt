@@ -1,0 +1,8 @@
+Vsts call has been made at:7/19/2017 4:26:54 PM
+
+Host: localhost:21605
+
+Time Taken: 33.5215513
+Error has been occured :
+Object reference not set to an instance of an object.
+   at RollUpApi.Controllers.RollUpController.Rollupworkitem(Object requestJson) in D:\Canarys\General RollUp - Part 3\RollUpApiMail\RollUpApi\Controllers\RollUpController.cs:line 208
